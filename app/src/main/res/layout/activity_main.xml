@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_activity_layout"
+    android:background="@color/main_activity_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wallpapers.cactustree.pc.ultimatesoundboard.MainActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/soundboard_toolbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/soundboard_toolbar"
+        android:id="@+id/soundboard_recycler_view"/>
+
+</RelativeLayout>

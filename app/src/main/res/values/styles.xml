@@ -1,0 +1,16 @@
+<resources>
+
+    <!--Main style for the design of all main components-->
+    <style name="AppTheme" parent="AppTheme.Base">
+    </style>
+
+    <!--Desing values for the toolbar/actionbar-->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+    </style>
+
+</resources>

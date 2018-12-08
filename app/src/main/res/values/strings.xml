@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UltimateSoundboard</string>
+
+    <string name="main_label">SoundboardLabel</string>
+
+    <string-array name="soundNames">
+        <item>Dangerzone</item>
+        <item>BingBOng</item>
+        <item>Trumpcard</item>
+    </string-array>
+
+</resources>

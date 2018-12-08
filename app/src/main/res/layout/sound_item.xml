@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="140dp">
+
+    <!--Button image sizes:
+        MDPI:  100x100 px
+        HDPI:  150x150 px
+        XHDPI: 200x200 px
+        XXHDPI: 300x300 px
+    -->
+
+    <ImageView
+        android:id="@+id/sound_item_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/minecraft_play_sound_button" />
+
+    <TextView
+        android:id="@+id/sound_item_text"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/sound_item_image"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+</RelativeLayout>
